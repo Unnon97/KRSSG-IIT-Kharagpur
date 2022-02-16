@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "GPIO", "GPIO\GPIO.cproj", "{2655F91C-FE3B-4DCE-AE4E-73312D416079}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2655F91C-FE3B-4DCE-AE4E-73312D416079}.Debug|AVR.ActiveCfg = Debug|AVR
+		{2655F91C-FE3B-4DCE-AE4E-73312D416079}.Debug|AVR.Build.0 = Debug|AVR
+		{2655F91C-FE3B-4DCE-AE4E-73312D416079}.Release|AVR.ActiveCfg = Release|AVR
+		{2655F91C-FE3B-4DCE-AE4E-73312D416079}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
