@@ -1,0 +1,12 @@
+syntax = "proto2" ;
+
+message botdata {
+        optional int32 botid = 1;
+        required int32 v1 = 2;
+        required int32 v2 = 3;
+        required int32 v3 = 4;
+        required int32 v4 = 5;
+        optional int32 batstat = 6;
+        optional int32 capvol = 7;
+}
+
