@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=mpu6050.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\mpu6050 -TC:\CooCox\CoIDE\configuration\ProgramData\mpu6050/arm-gcc-link.ld -g -L..\..\.. -lm">
+      <target file="mpu6050.elf" lastModified="154cacc480c">
+         <source file="..\obj\semihosting.o" lastModified="154cac70372"/>
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="154cac70421"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="154cac704a3"/>
+         <source file="..\obj\main.o" lastModified="154cacc454b"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="154cac70c97"/>
+         <source file="..\obj\printf.o" lastModified="154cac70d64"/>
+         <source file="..\obj\tm_stm32f4_i2c.o" lastModified="154cac70e22"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="154cac70eef"/>
+         <source file="..\obj\sh_cmd.o" lastModified="154cac70f26"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="154cac7100c"/>
+         <source file="..\obj\syscalls.o" lastModified="154cac710d9"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="154cac71197"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="154cac7122a"/>
+         <source file="..\obj\misc.o" lastModified="154cac712be"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="154cac713db"/>
+      </target>
+   </processor>
+</history>

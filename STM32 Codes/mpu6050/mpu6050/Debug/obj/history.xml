@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\mpu6050\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\mpu6050\semihosting -I..\..\..\workspace\mpu6050\cmsis_lib\include -I..\..\..\workspace\mpu6050\cmsis_lib -I..\..\.. -ID:\STM32F-krssg\gcc-arm-none-eabi\lib\gcc\arm-none-eabi -ID:\STM32F-krssg\gcc-arm-none-eabi\lib\gcc\arm-none-eabi\4.8.3\include -I..\..\..\workspace\mpu6050\cmsis -I..\..\..\workspace\mpu6050 -ID:\STM32F-krssg\gcc-arm-none-eabi\lib\gcc\arm-none-eabi\4.8.3">
+      <target file="syscalls.o" lastModified="154cac710d9">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="154bb1ebb10"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="154cac70eef">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="154bb228ba0"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="154cac713db">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="154bb22c250"/>
+      </target>
+      <target file="printf.o" lastModified="154cac70d64">
+         <source file="..\..\..\stdio\printf.c" lastModified="154bb2f35d0"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="154cac7100c">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="154bb227430"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="154cac704a3">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="154bb227430"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="154cac71197">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="154bb22aae0"/>
+      </target>
+      <target file="tm_stm32f4_i2c.o" lastModified="154cac70e22">
+         <source file="..\..\..\tm_stm32f4_i2c.c" lastModified="154c074b290"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="154cac70421">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="154bb22f130"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="154cac7122a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="154bb229370"/>
+      </target>
+      <target file="main.o" lastModified="154cacc454b">
+         <source file="..\..\..\main.c" lastModified="154cacc406a"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="154cac70f26">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="154bb212c10"/>
+      </target>
+      <target file="semihosting.o" lastModified="154cac70372">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="154bb212c10"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="154cac70c97">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="154bb2283d0"/>
+      </target>
+      <target file="misc.o" lastModified="154cac712be">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="154bb22d9c0"/>
+      </target>
+   </processor>
+</history>

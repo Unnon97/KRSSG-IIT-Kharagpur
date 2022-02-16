@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F405RG -DSTM32F4XX -I..\..\..\workspace\PID\cmsis_boot -I..\..\..\workspace\PID -I..\..\..\workspace\PID\cmsis_lib -I..\..\..\workspace -I..\..\..\workspace\PID\cmsis -I..\..\..\workspace\PID\cmsis_lib\include">
+      <target file="stm32f4xx_gpio.o" lastModified="154e9ee9547">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="154d544daeb"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="154e9ee9842">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="154e6cdc966"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="154e9ee95ea">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="154d544cd1d"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="154e9ee92ed">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="154d544ccd9"/>
+      </target>
+      <target file="main.o" lastModified="154e9f10af2">
+         <source file="..\..\..\main.c" lastModified="154e9f10479"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="154e9ee9449">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="154d544ccb3"/>
+      </target>
+      <target file="misc.o" lastModified="154e9ee9683">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="154d544e8e6"/>
+      </target>
+   </processor>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F405RG -DSTM32F4XX -I..\..\..\workspace\PID\cmsis_boot -I..\..\..\workspace\PID -I..\..\..\workspace\PID\cmsis_lib -I..\..\..\workspace -I..\..\..\workspace\PID\cmsis_lib\include -I..\..\..\workspace\PID\cmsis">
+      <target file="stm32f4xx_usart.o" lastModified="154e9ed054c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="154e6cdff52"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="154e9ed098b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="154d544d634"/>
+      </target>
+   </processor>
+</history>
