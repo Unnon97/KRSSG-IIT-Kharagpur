@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\GPIO\cmsis_boot -I..\..\..\workspace\GPIO\cmsis_lib\include -I..\..\..\workspace -I..\..\..\workspace\GPIO\cmsis_lib -I..\..\..\workspace\GPIO -I..\..\..\workspace\GPIO\cmsis">
+      <target file="stm32f4xx_gpio.o" lastModified="154f8dbddbf">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1537030fb9b"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="154f8dbe1aa">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="15370313155"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="154f8dbde68">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1537030fbff"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="154f8dbdb75">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1537030fbca"/>
+      </target>
+      <target file="stm32f4xx_rtc.o" lastModified="154f8dbe04e">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rtc.c" lastModified="15370310fbf"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="154f8dbdae2">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="15370311a7d"/>
+      </target>
+      <target file="main.o" lastModified="15b06acc68b">
+         <source file="..\..\..\main.c" lastModified="15b06acc356"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="154f8dbdd06">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1537030fcb8"/>
+      </target>
+      <target file="misc.o" lastModified="154f8dbdf21">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="153703126e5"/>
+      </target>
+   </processor>
+</history>
